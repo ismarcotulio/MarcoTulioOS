@@ -14,5 +14,4 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := \
-	aosp_cf_marcotulio_os_x86_phone:$(LOCAL_DIR)/vsoc_x86/phone/device.mk
+add_lunch_combo aosp_cf_marcotulio_os_x86_phone-userdebug

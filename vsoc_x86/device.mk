@@ -1,5 +1,5 @@
 #
-# Copyright 2017 The Android Open-Source Project
+# Copyright (C) 2019 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,7 +12,5 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-#
 
-PRODUCT_MAKEFILES := \
-	aosp_cf_marcotulio_os_x86_phone:$(LOCAL_DIR)/vsoc_x86/phone/device.mk
+PRODUCT_COPY_FILES += device/google/cuttlefish_kernel/4.14-x86_64/kernel-4.14:kernel

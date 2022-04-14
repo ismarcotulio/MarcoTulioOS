@@ -14,5 +14,5 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := \
-	aosp_cf_marcotulio_os_x86_phone:$(LOCAL_DIR)/vsoc_x86/phone/device.mk
+LOCAL_PATH:= $(call my-dir)
+include $(call all-makefiles-under,$(LOCAL_PATH))
